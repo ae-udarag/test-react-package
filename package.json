@@ -1,10 +1,10 @@
 {
-  "name": "test-react-package",
+  "name": "@ae-udarag/test-react-package",
   "version": "1.0.0",
-  "description": "Made with create-react-library",
+  "description": "Common UI Components For Test React Project",
   "author": "ae-udarag",
   "license": "MIT",
-  "repository": "ae-udarag/test-react-package",
+  "repository": "git@github.com:ae-udarag/test-react-package.git",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -25,6 +25,9 @@
   },
   "peerDependencies": {
     "react": "^16.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "devDependencies": {
     "microbundle-crl": "^0.13.10",
